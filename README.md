@@ -1,5 +1,5 @@
-## Agent-skills
-# Slop reduction
+# Agent-skills
+## Slop reduction
 
 
 Detailed instructions for AI coding agents. Load a skill only when the task
