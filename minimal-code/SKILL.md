@@ -28,8 +28,8 @@ Unless required by the existing codebase or explicitly requested, do not add:
 - Production-grade project structure
 
 ## Production mode
-Only apply production-grade engineering practices when the user's prompt contains the word **"productionize"**.
+Only apply production-grade engineering practices when the user's prompt contains the word **"productionize"** (or the user invokes `/productionize`).
 
-When triggered, use appropriate production practices such as stronger validation, error handling, tests, logging, typing, security considerations, maintainability, and architecture.
+When triggered, invoke the **productionize** skill and follow it instead of the rules above. It defines the full checklist: validation, error handling, tests, logging, typing, security, maintainability, and architecture.
 
 Otherwise, simplicity wins.
